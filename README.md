@@ -1,27 +1,49 @@
-# Fight Price Prediction
+# Flight Price Prediction ✈️📈
 
-## What we will see in this Notebook
-- Problem Statement
-- Importing Libraries
-- Loading the dataset
-- Data Inspection
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Checking for null values
-- Using Encoding to Handle categorical data
-- Feature Selection
-- Building Machine Learning models
-- Hyperparameter Tuning
-- Conclusion
+## Introduction
 
-### Problem Statement
+This project aims to predict flight ticket prices using machine learning. The dataset contains flight ticket prices from March to June 2019, with 10,683 records in the training set and 2,671 records in the test set. By analyzing features like airline, source, destination, flight duration, and ticket prices, we develop an accurate prediction model. The results can provide insights for travelers and airlines to make informed decisions.
 
-I have build an ML model that predicts flight ticket prices based on various independent features, using a dataset of flight ticket prices from the Kaggle website. The dataset includes prices for various airlines and cities between March and June of 2019, with a training set of 10,683 records and a test set of 2,671 records. The prediction results can be beneficial for both travelers, who can use it to make informed decisions about their travel, and for airlines, who can use it to forecast competitors' rates and adjust their pricing strategies to maximize revenue while remaining competitive.
+## Dependencies
 
-- Size of training set: 10683 records
-- Size of test set: 2671 records
-- Link of the dataset:- https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh
+To run this project, you'll need the following libraries:
 
-### Conclusion
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import LabelEncoder
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+from sklearn.model_selection import RandomizedSearchCV
+```
 
-We have used random forest regressor for training the model and improved its accuracy by doing hyperparameter tuning. As a result, we have trained our **Random Forest Regression model**, to forecast fares of flight tickets, with an R2 score of 82 %.
+## EDA Findings
+
+- Most preferred airline: "Jet Airways," followed by "Indigo."
+- Most expensive tickets: "Jet Airways Business."
+- Prices tend to be higher on weekends.
+- "Total_Stops" and "flight duration" have high correlation with ticket prices.
+
+## Model Building and Selection
+
+Three models used for prediction: K Nearest Neighbors Regressor, Decision Tree Regressor, and Random Forest Regressor. 
+Random Forest Regressor performs best, with 82% accuracy before hyperparameter tuning.
+
+## Hyperparameter Tuning
+
+RandomizedSearchCV applied to Random Forest Regressor, improving accuracy to 82%. 
+The tuned model provides reliable forecasts for flight ticket fares.
+
+## Connect with Me on LinkedIn 🤝
+
+Feel free to connect with me on LinkedIn to discuss data science and machine learning.
+
+## Feel Free to Use and Fork this Repo 🚀
+
+This project is open-source. You are welcome to use, fork, and contribute to enhance 
+its capabilities and benefit the aviation industry.
+
