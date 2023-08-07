@@ -40,7 +40,7 @@ The tuned model provides reliable forecasts for flight ticket fares.
 
 ## Connect with Me on LinkedIn 🤝
 
-Feel free to connect with me on LinkedIn to discuss data science and machine learning.
+Feel free to connect with me on <a href="https://www.linkedin.com/in/pattnaik-aishwarya-950b57282/" target="_blank">&#128101; LinkedIn</a> | <a href="https://medium.com/@aishwarya.pattnaik224" target="_blank">&#9997; Medium</a>
 
 ## Feel Free to Use and Fork this Repo 🚀
 
