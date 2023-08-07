@@ -42,6 +42,9 @@ The tuned model provides reliable forecasts for flight ticket fares.
 
 Feel free to connect with me on <a href="https://www.linkedin.com/in/pattnaik-aishwarya-950b57282/" target="_blank">&#128101; LinkedIn</a> | <a href="https://medium.com/@aishwarya.pattnaik224" target="_blank">&#9997; Medium</a>
 
+You can also find my <a href="https://medium.com/@aishwarya.pattnaik224/flight-ticket-price-prediction-with-machine-learning-and-eda-505a55e0f838" target="_blank">Medium </a> article here.
+
+
 ## Feel Free to Use and Fork this Repo 🚀
 
 This project is open-source. You are welcome to use, fork, and contribute to enhance 
